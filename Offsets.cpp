@@ -21,7 +21,7 @@ constexpr long OFF_NAME = 0x0481; //[RecvTable.DT_BaseEntity]->m_iName
 constexpr long OFF_LIFE_STATE = 0x0690; //[RecvTable.DT_Player]->m_lifeState
 constexpr long OFF_BLEEDOUT_STATE = 0x2760; //[RecvTable.DT_Player]->m_bleedoutState
 constexpr long OFF_LAST_VISIBLE_TIME = 0x199e + 0x2; //[RecvTable.DT_BaseCombatCharacter]->CPlayer!lastVisibleTime
-constexpr long OFF_LAST_AIMEDAT_TIME = 0x199e + 0x8;
+constexpr long OFF_LAST_AIMEDAT_TIME = OFF_LAST_VISIBLE_TIME + 0x8;
 constexpr long OFF_VIEW_ANGLES = 0x2534 - 0x14; //[DataMap.C_Player]->m_ammoPoolCapacity - 0x14
 constexpr long OFF_PUNCH_ANGLES = 0x2438; //[DataMap.C_Player]->m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
 
